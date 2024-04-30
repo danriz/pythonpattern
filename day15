@@ -1,0 +1,16 @@
+corners=1
+middle=1
+space=5
+for x in range (7):
+    if x>=0 and x<3:
+        print('*'.rjust(3)*corners,end='')
+        print(' '.rjust(3)*space,end='')
+        print('*'.rjust(3)*middle,end='')
+        print(' '.rjust(3)*space,end='')
+        print('*'.rjust(3)*corners,end='')
+        corners=corners+1
+        space=space-2
+        middle=middle+2
+    else:
+        print('*'.rjust(3)*13,end='')
+    print()

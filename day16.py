@@ -41,4 +41,4 @@ def array_printer3(5):
 
 array_printer(10)
 array_printer2(10)
-array_printer3(10)
+array_printer3(5)

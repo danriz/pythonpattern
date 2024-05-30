@@ -28,7 +28,17 @@ def array_printer2(hh):
             print(chr(65 + min(j, hh-1 - i)).rjust(3), end=' ')
         print()
 
+    mylist=['A','B','C','D','E']
+    k=1
 
+def array_printer3(5):
+    for x in range (len(mylist[:])):
+        for y in range (len(mylist)):
+            print(mylist[y]*k if y==len(mylist)-1 else mylist[y],end='' )
+        mylist.pop()
+        k=k+1
+        print()
 
 array_printer(10)
 array_printer2(10)
+array_printer3(10)
